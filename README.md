@@ -12,7 +12,9 @@ This is a template for a Blazor Web App using the Radzen Blazor Components Libra
 
 ### Web
 
-The `Web` project contains the Blazor Web App. The project is configured to use the Radzen Blazor Components Library (Version 4.31.3). The project is also configured to use the `Data` project as the database context.
+The `Web` project contains the Blazor Web App. The project is configured to use the Radzen Blazor Components Library. The project is also configured to use the `Data` project as the database context.
+
+- Radzen Blazor Components Library NuGet Package **Version 4.31.3**
 
 ### docker-compose
 
