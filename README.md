@@ -1,6 +1,6 @@
-# Blazor Web App Template
+# Blazor Radzen Web App Template
 
-This is a template for a Blazor Web App with a Docker Compose configuration also splitting the database and the application.
+This is a template for a Blazor Web App using the Radzen Blazor Components Library. The project is configured to run with a Docker Compose configuration also splitting the database and the application.
 
 ## Prerequisites
 
@@ -9,6 +9,10 @@ This is a template for a Blazor Web App with a Docker Compose configuration also
 - [Docker Desktop (optional)](https://www.docker.com/products/docker-desktop/)
 
 ## Project Configurations
+
+### Web
+
+The `Web` project contains the Blazor Web App. The project is configured to use the Radzen Blazor Components Library (Version 4.31.3). The project is also configured to use the `Data` project as the database context.
 
 ### docker-compose
 
