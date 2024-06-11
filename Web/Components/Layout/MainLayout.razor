@@ -5,7 +5,10 @@
   <RadzenHeader>
     <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0">
       <RadzenSidebarToggle Click="@(() => sidebarExpanded = !sidebarExpanded)" />
-      <RadzenLabel Text="Header" />
+      <div style="width: 100%; display: flex; justify-content: space-between;">
+        <RadzenLabel Text="Header" />
+        <RadzenLink Path="https://blazor.radzen.com" Text="Radzen Components Documentation" Style="margin-right: 1rem;"/>
+      </div>
     </RadzenStack>
   </RadzenHeader>
   <RadzenSidebar @bind-Expanded="@sidebarExpanded">
